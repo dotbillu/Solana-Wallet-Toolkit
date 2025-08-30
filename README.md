@@ -20,7 +20,7 @@ A simple dApp for interacting with the Solana blockchain.
 
 1. Clone the repository:
   ```bash
-git clone https://github.com/YOUR_USERNAME/solana-wallet-toolkit.git
+git clone https://github.com/dotbillu/solana-wallet-toolkit.git
 cd solana-wallet-toolkit 
 yarn install                 #Install the dependencies
 
