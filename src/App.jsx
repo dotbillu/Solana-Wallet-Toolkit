@@ -1,5 +1,6 @@
 import Airdrop from "./components/requestAirdrop.jsx";
 import Balance from "./components/showBalance.jsx"
+import { SendTokens } from "./components/SendTokens.jsx";
 import React, { FC, useMemo } from "react";
 import {
   ConnectionProvider,
@@ -30,8 +31,10 @@ function App() {
             </div>
           </div>
           <div >
-            <Airdrop />
-            <Balance/> 
+            {/* <Airdrop /> */}
+            {/**/}
+            {/* <Balance/>  */}
+            <SendTokens/>
           </div>
         </WalletModalProvider>
       </WalletProvider>
